@@ -1,0 +1,199 @@
+<PropertyList>
+
+<model>
+<path>Aircraft/Kfir/Models/Cockpit/cockpit.ac</path>
+</model>
+
+<model>
+<path>Aircraft/Kfir/Models/Cockpit/mach/mach.xml</path>
+  <offsets>
+    <pitch-deg>0</pitch-deg>   
+    <heading-deg>0</heading-deg>
+    <roll-deg>0</roll-deg>
+    <x-m> 3.286</x-m>
+    <y-m>-0.245</y-m>
+    <z-m> 0.695</z-m>
+  </offsets>
+</model>
+
+<model>
+<path>Aircraft/Kfir/Models/Cockpit/knots/knots.xml</path>
+  <offsets>
+    <pitch-deg>0</pitch-deg>   
+    <heading-deg>0</heading-deg>
+    <roll-deg>0</roll-deg>
+    <x-m> 3.289</x-m>
+    <y-m>-0.171</y-m>
+    <z-m> 0.713</z-m>
+  </offsets>
+</model>
+
+<model>
+<path>Aircraft/Kfir/Models/Cockpit/altimeter/altimeter.xml</path>
+  <offsets>
+    <pitch-deg>0</pitch-deg>   
+    <heading-deg>0</heading-deg>
+    <roll-deg>0</roll-deg>
+    <x-m> 3.286</x-m>
+    <y-m>-0.154</y-m>
+    <z-m> 0.619</z-m>
+  </offsets>
+</model>
+
+<model>
+<path>Aircraft/Kfir/Models/Cockpit/vsi/vsi.xml</path>
+  <offsets>
+    <pitch-deg>0</pitch-deg>   
+    <heading-deg>0</heading-deg>
+    <roll-deg>0</roll-deg>
+    <x-m> 3.289</x-m>
+    <y-m>-0.239</y-m>
+    <z-m> 0.627</z-m>
+  </offsets>
+</model>
+
+<model>
+<path>Aircraft/Kfir/Models/Cockpit/clock/clock.xml</path>
+  <offsets>
+    <pitch-deg>0</pitch-deg>   
+    <heading-deg>0</heading-deg>
+    <roll-deg>0</roll-deg>
+    <x-m> 3.442</x-m>
+    <y-m>-0.168</y-m>
+    <z-m> 1.022</z-m>
+  </offsets>
+</model>
+
+<model>
+<path>Aircraft/Kfir/Models/Cockpit/heading/heading.xml</path>
+  <offsets>
+    <pitch-deg>0</pitch-deg>   
+    <heading-deg>0</heading-deg>
+    <roll-deg>0</roll-deg>
+    <x-m> 3.290</x-m>
+    <y-m> 0.000</y-m>
+    <z-m> 0.449</z-m>
+  </offsets>
+</model>
+
+<model>
+<path>Aircraft/Kfir/Models/Cockpit/nozzle/nozzle.xml</path>
+  <offsets>
+    <pitch-deg>0</pitch-deg>   
+    <heading-deg>0</heading-deg>
+    <roll-deg>0</roll-deg>
+    <x-m> 3.286</x-m>
+    <y-m> 0.094</y-m>
+    <z-m> 0.614</z-m>
+  </offsets>
+</model>
+
+<model>
+<path>Aircraft/Kfir/Models/Cockpit/fuelflow/fuelflow.xml</path>
+  <offsets>
+    <pitch-deg>0</pitch-deg>   
+    <heading-deg>0</heading-deg>
+    <roll-deg>0</roll-deg>
+    <x-m> 3.286</x-m>
+    <y-m> 0.163</y-m>
+    <z-m> 0.560</z-m>
+  </offsets>
+</model>
+
+<model>
+<path>Aircraft/Kfir/Models/Cockpit/percentfuel/percentfuel.xml</path>
+  <offsets>
+    <pitch-deg>0</pitch-deg>   
+    <heading-deg>0</heading-deg>
+    <roll-deg>0</roll-deg>
+    <x-m> 3.286</x-m>
+    <y-m> 0.234</y-m>
+    <z-m> 0.592</z-m>
+  </offsets>
+</model>
+
+<model>
+<path>Aircraft/Kfir/Models/Cockpit/ai/ai.xml</path>
+  <offsets>
+    <pitch-deg>0</pitch-deg>   
+    <heading-deg>0</heading-deg>
+    <roll-deg>0</roll-deg>
+    <x-m> 3.290</x-m>
+    <y-m> 0.000</y-m>
+    <z-m> 0.569</z-m>
+  </offsets>
+</model>
+
+<model>
+<path>Aircraft/Kfir/Models/Cockpit/cylai/cylai.xml</path>
+  <offsets>
+    <pitch-deg>0</pitch-deg>   
+    <heading-deg>0</heading-deg>
+    <roll-deg>0</roll-deg>
+    <x-m> 3.290</x-m>
+    <y-m> 0.111</y-m>
+    <z-m> 0.484</z-m>
+  </offsets>
+</model>
+
+<model>
+<path>Aircraft/Kfir/Models/Cockpit/gmeter/gmeter.xml</path>
+  <offsets>
+    <pitch-deg>0</pitch-deg>   
+    <heading-deg>0</heading-deg>
+    <roll-deg>0</roll-deg>
+    <x-m> 3.311</x-m>
+    <y-m> 0.104</y-m>
+    <z-m> 0.890</z-m>
+  </offsets>
+</model>
+
+<model>
+<path>Aircraft/Kfir/Models/Cockpit/aoa/aoa.xml</path>
+  <offsets>
+    <pitch-deg>0</pitch-deg>   
+    <heading-deg>0</heading-deg>
+    <roll-deg>0</roll-deg>
+    <x-m> 3.311</x-m>
+    <y-m>-0.104</y-m>
+    <z-m> 0.890</z-m>
+  </offsets>
+</model>
+
+<animation>
+<type>translate</type>
+<object-name>Throttle</object-name>
+<property>controls/engines/engine/throttle</property>
+<factor>-0.1</factor>
+<axis>
+<x>1</x>
+<y>0</y>
+<z>0</z>
+</axis>
+</animation>
+
+<animation>
+<type>translate</type>
+<object-name>L.Pedal</object-name>
+<property>controls/flight/rudder</property>
+<factor>-0.075</factor>
+<axis>
+<x>1</x>
+<y>0</y>
+<z>0</z>
+</axis>
+</animation>
+
+<animation>
+<type>translate</type>
+<object-name>R.Pedal</object-name>
+<property>controls/flight/rudder</property>
+<factor>0.075</factor>
+<axis>
+<x>1</x>
+<y>0</y>
+<z>0</z>
+</axis>
+</animation>
+
+</PropertyList>

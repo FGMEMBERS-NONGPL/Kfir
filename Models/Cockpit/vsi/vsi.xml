@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+<path>vsi.ac</path>
+
+<animation>
+	<name>needle</name>
+	<type>rotate</type>
+	<object-name>needle</object-name>
+	<property>velocities/vertical-speed-fps</property>
+	<interpolation>
+	<entry><ind>-100.0</ind><dep>-165.0</dep></entry>
+	<entry><ind>-66.667</ind><dep>-124.8</dep></entry>
+	<entry><ind>-33.333</ind><dep>-80.0</dep></entry>
+	<entry><ind>-16.667</ind><dep>-45.0</dep></entry>
+	<entry><ind>-8.333</ind><dep>-22.4</dep></entry>
+	<entry><ind>0.0</ind><dep>0</dep></entry>
+	<entry><ind>8.333</ind><dep>22.4</dep></entry>
+	<entry><ind>16.667</ind><dep>45</dep></entry>
+	<entry><ind>33.333</ind><dep>80.0</dep></entry>
+	<entry><ind>66.667</ind><dep>124.8</dep></entry>
+	<entry><ind>100.0</ind><dep>165.0</dep></entry>
+	</interpolation>
+	<center>
+	<x-m>0</x-m>
+	<y-m>0</y-m>
+	<z-m>0</z-m>
+	</center>
+	<axis>
+	<x>-1</x>
+	<y>0</y>
+	<z>0</z>
+	</axis>
+</animation>
+
+<animation>
+	<type>range</type>
+	<min-m>0</min-m>
+	<max-m>50</max-m>
+</animation>
+
+</PropertyList>

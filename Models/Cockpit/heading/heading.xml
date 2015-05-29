@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+<path>heading.ac</path>
+
+<animation>
+	<name>face</name>
+	<type>rotate</type>
+	<object-name>face</object-name>
+	<property>orientation/heading-deg</property>
+      <factor>1</factor>
+	<center>
+	<x-m>0</x-m>
+	<y-m>0</y-m>
+	<z-m>0</z-m>
+	</center>
+	<axis>
+	<x>1</x>
+	<y>0</y>
+	<z>0</z>
+	</axis>
+</animation>
+
+<animation>
+	<type>range</type>
+	<min-m>0</min-m>
+	<max-m>50</max-m>
+</animation>
+
+</PropertyList>

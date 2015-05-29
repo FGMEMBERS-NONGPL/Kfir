@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+<path>nozzle.ac</path>
+
+<animation>
+	<name>needle</name>
+	<type>rotate</type>
+	<object-name>needle</object-name>
+        <property>engines/engine/thrust_lb</property>
+  	<interpolation>
+     	<entry><ind>0</ind><dep>0</dep></entry>
+     	<entry><ind>11400</ind><dep>90</dep></entry>
+     	<entry><ind>18000</ind><dep>0</dep></entry>
+  	</interpolation>
+	<center>
+	<x-m>0</x-m>
+	<y-m>-0.019</y-m>
+	<z-m>0.014</z-m>
+	</center>
+	<axis>
+	<x>-1</x>
+	<y>0</y>
+	<z>0</z>
+	</axis>
+</animation>
+
+<animation>
+	<type>range</type>
+	<min-m>0</min-m>
+	<max-m>50</max-m>
+</animation>
+
+</PropertyList>

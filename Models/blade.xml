@@ -1,0 +1,49 @@
+<PropertyList>
+
+<model>
+ <path>Aircraft/Kfir/Models/blade.ac</path>
+</model>
+
+    <animation>
+        <type>rotate</type>
+        <object-name>R.Blade</object-name>
+        <property>engines/engine/thrust_lb</property>
+  	<interpolation>
+     	<entry><ind>0</ind><dep>0</dep></entry>
+     	<entry><ind>11400</ind><dep>-20</dep></entry>
+     	<entry><ind>18000</ind><dep>0</dep></entry>
+  	</interpolation>
+        <center>
+            <x-m>0</x-m>
+            <y-m>0.532</y-m>
+            <z-m>0</z-m>
+        </center>
+        <axis>
+            <x>0</x>
+            <y>0</y>
+            <z>1</z>
+        </axis>
+    </animation>
+
+    <animation>
+        <type>rotate</type>
+        <object-name>L.Blade</object-name>
+        <property>engines/engine/thrust_lb</property>
+  	<interpolation>
+     	<entry><ind>0</ind><dep>0</dep></entry>
+     	<entry><ind>11400</ind><dep>20</dep></entry>
+     	<entry><ind>18000</ind><dep>0</dep></entry>
+  	</interpolation>
+        <center>
+            <x-m>0</x-m>
+            <y-m>-0.532</y-m>
+            <z-m>0</z-m>
+        </center>
+        <axis>
+            <x>0</x>
+            <y>0</y>
+            <z>1</z>
+        </axis>
+    </animation>
+
+</PropertyList>
